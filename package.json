@@ -2,12 +2,12 @@
   "name": "clgt",
   "author": "Toan Pham Cong",
   "license": "MIT",
-  "version": "0.0.1",
-  "description": "A command line for git change log.",
+  "version": "0.0.3",
+  "description": "A tool generate git changelog file.",
   "main": "index.js",
   "scripts": {
     "test": "lab -L -C -c -t 90",
-    "coveralls": "lab -r lcov | coveralls"
+    "coveralls": "lab -r lcov | ./node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",
