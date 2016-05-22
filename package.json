@@ -1,0 +1,35 @@
+{
+  "name": "clgt",
+  "author": "Toan Pham Cong",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "A command line for git change log.",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -L -C -c -t 90"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://google.com"
+  },
+  "keywords": [
+    "git",
+    "change",
+    "log"
+  ],
+  "dependencies": {
+    "async": "^1.5.0",
+    "colors": "^1.1.0",
+    "commander": "^2.8.0",
+    "lodash": "^4.12.0",
+    "nconf": "^0.8.4"
+  },
+  "devDependencies": {
+    "code": "^3.0.0",
+    "lab": "^10.6.1",
+    "sinon": "^1.12.0"
+  },
+  "bin": {
+    "clgt": "index.js"
+  }
+}

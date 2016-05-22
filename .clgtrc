@@ -1,0 +1,48 @@
+{
+  "file": "CHANGELOG.md",
+  "name": "Change Log GiT",
+  "description": "A tool generate git changelog file",
+  "url": "https://github.com/toancong/clgt/commit/",
+  "types": [
+    {
+      "title": "Bug Fixes",
+      "pattern": "^fix|^bug"
+    },
+    {
+      "title": "",
+      "pattern": "^feat"
+    },
+    {
+      "title": "Documentation",
+      "pattern": "^docs"
+    },
+    {
+      "title": "Breaking changes",
+      "pattern": "BREAKING"
+    },
+    {
+      "title": "Refactor",
+      "pattern": "^refactor"
+    },
+    {
+      "title": "Style",
+      "pattern": "^style"
+    },
+    {
+      "title": "Test",
+      "pattern": "^test"
+    },
+    {
+      "title": "Chore",
+      "pattern": "^chore"
+    },
+    {
+      "title": "Branchs merged",
+      "pattern": "^Merge branch"
+    },
+    {
+      "title": "Pull requests merged",
+      "pattern": "^Merged in"
+    }
+  ]
+}

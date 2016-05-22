@@ -1,0 +1,21 @@
+{
+  "js": {
+    "indent_size": 2,
+    "indent_char": " ",
+    "indent_level": 0,
+    "indent_with_tabs": false,
+    "preserve_newlines": true,
+    "space_in_paren": false,
+    "space_after_anon_function": false,
+    "space_before_conditional": true,
+    "brace_style": "none",
+    "break_chained_methods": false,
+    "keep_array_indentation": true,
+    "keep_function_indentation": true,
+    "eval_code": false,
+    "unescape_strings": false,
+    "wrap_line_length": 120,
+    "end_with_newline": true,
+    "end_with_comma": false,
+  }
+}
