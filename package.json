@@ -6,7 +6,8 @@
   "description": "A command line for git change log.",
   "main": "index.js",
   "scripts": {
-    "test": "lab -L -C -c -t 90"
+    "test": "lab -L -C -c -t 90",
+    "coveralls": "lab -r lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "code": "^3.0.0",
+    "coveralls": "^2.11.9",
     "lab": "^10.6.1",
     "sinon": "^1.12.0"
   },
