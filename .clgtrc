@@ -2,14 +2,14 @@
   "file": "CHANGELOG.md",
   "name": "Change Log GiT",
   "description": "A tool generate git changelog file",
-  "url": "https://github.com/toancong/clgt/commit/",
+  "url": "https://github.com/toancong/clgt/commit",
   "types": [
     {
       "title": "Bug Fixes",
       "pattern": "^fix|^bug"
     },
     {
-      "title": "",
+      "title": "Features",
       "pattern": "^feat"
     },
     {
