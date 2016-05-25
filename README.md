@@ -9,6 +9,15 @@
 Change Log GiT
 
 A tool generate git changelog file.
+It help you generate change logs for specific version, from version to version.
+Allow ignore some commits you don't like included in logs.
+History with markdown output.
+
+## Installation ##
+
+``` bash
+npm install -g clgt
+```
 
 ## Usage ##
 
@@ -27,3 +36,30 @@ Options:
   -u, --url          Url commit repository git  [string] [required]
   -h, --help         Show this help
 ```
+
+## FAQ ##
+
+1.  How do I generate changelog to other file name?
+
+    Answer: `clgt -n othername.md`
+
+2.  How do I generate changelog for a specific version?
+
+    Answer: `clgt -t v1.0`
+
+3.  How do I generate changelog from a version to an other one?
+
+    Answer: `clgt -t v1.0..v2.0` will generate logs from after v1.0 to v2.0:
+    logs without v1.0, include v2.0 and between them.
+
+4.  How do I generate changelog from a version to now?
+
+    Answer: `clgt -t v1.0..`
+
+5.  I want to ignore some commits in change logs.
+
+    Answer: Please add regex pattern in `ignore` field to configuration file.
+
+6.  Where is the configuration file?
+
+    Answer: It's `.clgtrc`, located at root repository.
