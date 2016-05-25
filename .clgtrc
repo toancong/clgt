@@ -33,5 +33,5 @@
       "pattern": "^test"
     }
   ],
-  "ignore": ".*ignore me.*|.*CHANGELOG.md.*|.*ignoreme.*|^chore|^release"
+  "ignore": ".*ignore me.*|.*CHANGELOG.md.*|.*ignoreme.*|^chore|^release|^revert|^Merge pull request"
 }
