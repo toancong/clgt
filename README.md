@@ -1,6 +1,10 @@
 # CLGT #
-[![Build Status](https://travis-ci.org/toancong/clgt.png?branch=master)](https://travis-ci.org/toancong/clgt)
-[![Coverage Status](https://coveralls.io/repos/github/toancong/clgt/badge.png?branch=master)](https://coveralls.io/github/toancong/clgt?branch=master)
+
+[![Build Status](https://img.shields.io/travis/toancong/clgt/master.svg)]()
+[![Coverage Status](https://img.shields.io/coveralls/toancong/clgt/master.svg)](https://coveralls.io/github/toancong/clgt?branch=master)
+[![Stable Version](https://img.shields.io/npm/v/clgt.svg)]()
+[![Download Status](https://img.shields.io/npm/dt/clgt.svg)]()
+[![License](https://img.shields.io/github/license/toancong/clgt.svg)]()
 
 Change Log GiT
 
@@ -8,7 +12,7 @@ A tool generate git changelog file.
 
 ## Usage ##
 
-```
+``` bash
 $ clgt --help
 
 Change Log GiT
