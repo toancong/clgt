@@ -31,7 +31,18 @@
     {
       "title": "Test",
       "pattern": "^test"
+    },
+    {
+      "title": "Chore",
+      "pattern": "^chore"
+    },
+    {
+      "title": "Branchs merged",
+      "pattern": "^Merge branch"
+    },
+    {
+      "title": "Pull requests merged",
+      "pattern": "^Merged in"
     }
-  ],
-  "ignore": ".*ignore me.*|.*CHANGELOG.md.*|.*ignoreme.*|^chore|^release"
+  ]
 }
