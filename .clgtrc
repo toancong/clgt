@@ -31,11 +31,7 @@
     {
       "title": "Test",
       "pattern": "^test"
-    },
-    {
-      "title": "Chore",
-      "pattern": "^chore"
     }
   ],
-  "ignore": ".*ignore me.*|.*CHANGELOG.md.*|.*ignoreme.*"
+  "ignore": ".*ignore me.*|.*CHANGELOG.md.*|.*ignoreme.*|^chore|^release"
 }

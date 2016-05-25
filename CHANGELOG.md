@@ -2,6 +2,16 @@ __Change Log GiT__
 
 _A tool generate git changelog file_
 
+# v1.0.0 (2016-05-24) #
+
+## Other ##
+
+- Ignore some commits by pattern in config
+ ([c1fee01](https://github.com/toancong/clgt/commit/c1fee01))
+- Update .clgtrc config file
+ ([6bbb767](https://github.com/toancong/clgt/commit/6bbb767))
+
+
 # v0.0.3 (2016-05-22) #
 
 ## Bug Fixes ##
@@ -22,12 +32,6 @@ _A tool generate git changelog file_
 
 
 # v0.0.1 (2016-05-22) #
-
-## Chore ##
-
-- Add services
- ([837ffa0](https://github.com/toancong/clgt/commit/837ffa0))
-
 
 ## Other ##
 
