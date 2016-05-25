@@ -3,7 +3,7 @@
 (function() {
   var _ = require('lodash');
   var cmdOptions = require('./lib/config').cmdOptions;
-  var generator = require('./lib/generate');
+  var generator = require('./lib/generator');
   var nconf = require('nconf');
   var log = require('./lib/log');
 
