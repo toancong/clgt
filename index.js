@@ -8,7 +8,7 @@
   var log = require('./lib/log');
   var fs = require('fs');
   var marked = require('marked');
-  var File = require('./lib/file')
+  var File = require('./lib/file');
 
   if (!module.parent) {
     var file = _.cloneDeep(nconf.file('.clgtrc').stores.file.store);
@@ -32,15 +32,14 @@
       } else {
         log('success', 'Done generating to', options.file);
         if (options.report && options.report === 'html') {
-          fs.readFile(options.file, 'utf8', function(err, contents) {
-            if (err) {
-              log('error', err);
+          fs.readFile(options.file, 'utf8', function(readFileErr, contents) {
+            if (readFileErr) {
+              log('error', readFileErr);
             }
 
-            // TODO: Need to change the default html report file name
-            var file = new File("CHANGELOG.html");
-            file.write(marked(contents));
-            file.end();
+            var htmlFile = new File('CHANGELOG.html');
+            htmlFile.write(marked(contents));
+            htmlFile.end();
             log('success', 'and also CHANGELOG.html');
           });
         }
