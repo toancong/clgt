@@ -2,6 +2,37 @@ __Change Log GiT__
 
 _A tool generate git changelog file_
 
+# v1.0.3 (2016-05-31) #
+
+## Bug Fixes ##
+
+- **Generator:**
+    - Bug empty release version
+ ([f01bf52](https://github.com/toancong/clgt/commit/f01bf52))
+    - Bug async after generate
+ ([5c26583](https://github.com/toancong/clgt/commit/5c26583))
+- **report:**
+    - JSLint errors
+ ([2099ccf](https://github.com/toancong/clgt/commit/2099ccf))
+
+
+## Features ##
+
+- **report:**
+    - Export HTML report
+ ([79056ac](https://github.com/toancong/clgt/commit/79056ac))
+
+
+# v1.0.2 (2016-05-25) #
+
+## Other ##
+
+- Update version in package.json
+ ([4de9a88](https://github.com/toancong/clgt/commit/4de9a88))
+
+
+# v1.0.1 (2016-05-25) #
+
 # v1.0.0 (2016-05-24) #
 
 ## Other ##
