@@ -2,7 +2,7 @@
   "name": "clgt",
   "author": "Toan Pham Cong",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tool generate git changelog file.",
   "main": "index.js",
   "scripts": {

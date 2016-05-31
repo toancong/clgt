@@ -6,7 +6,7 @@
 [![Download Status](https://img.shields.io/npm/dt/clgt.svg)](https://www.npmjs.com/package/clgt)
 [![License](https://img.shields.io/github/license/toancong/clgt.svg)](https://github.com/toancong/clgt/blob/master/LICENSE)
 
-Change Log GiT
+Change Log Git Tool
 
 A tool generate git changelog file.
 It help you generate change logs for specific version, from version to version.
@@ -35,6 +35,7 @@ Options:
   -t, --tag          Tag revision git  [string]
   -u, --url          Url commit repository git  [string] [required]
   -h, --help         Show this help
+  -r, --report       Export the report
 ```
 
 ## FAQ ##
