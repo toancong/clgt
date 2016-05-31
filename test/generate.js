@@ -5,6 +5,7 @@
 var generate = require('../lib/generate.js');
 var Generator = generate.Generator;
 var git = require('../lib/git.js');
+var Process = require('child_process');
 
 // Load external modules
 var Lab = require('lab');
@@ -285,10 +286,17 @@ describe('Test generator', function() {
 
         callback(null, []);
       });
+      Sinon.stub(Process, 'execSync', function(cmd) {
+
+        // this is not really return cmd
+        // I like return to bypass linter
+        return cmd;
+      });
       generate.generate({ tag: 'v1.0' }, function(err) {
 
         git.getLogs.restore();
         git.getTags.restore();
+        Process.execSync.restore();
         done(err);
       });
     });
