@@ -2,6 +2,15 @@ __Change Log GiT__
 
 _A tool generate git changelog file_
 
+# v1.0.4 (2016-06-01) #
+
+## Bug Fixes ##
+
+- **File:**
+    - Bug async after generate
+ ([1fae18a](https://github.com/toancong/clgt/commit/1fae18a))
+
+
 # v1.0.3 (2016-05-31) #
 
 ## Bug Fixes ##
